@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.body {
+	margin: 0;
+}
+
+.btn-lg-custom {
+	width:10em;
+}
