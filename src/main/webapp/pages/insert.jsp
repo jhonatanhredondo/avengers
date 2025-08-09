@@ -1,6 +1,6 @@
 <%@ include file="header.jsp"%>
 <div class="container my-5">
-	<form name="formNewHero" method="post" action="insert"
+	<form name="formNewHero" method="post" action="${pageContext.request.contextPath}/Controller?action=add"
 		class="insert-form" onsubmit="return validation()">
 		<div class="row align-items-center">
 			<div class="col-md-2">
@@ -40,10 +40,9 @@
 		<div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
 			<button type="submit" class="btn btn-primary btn-lg btn-lg-custom"
 				role="button">Inserir</button>
-			<a class="btn btn-secondary btn-lg btn-lg-custom" href="Controller"
+			<a class="btn btn-secondary btn-lg btn-lg-custom" href="${pageContext.request.contextPath}/Controller"
 				role="button">Voltar</a>
 		</div>
 	</form>
 </div>
-
 <%@ include file="footer.jsp"%>

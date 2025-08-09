@@ -1,6 +1,6 @@
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="model.HeroJavaBeans"%>
-<%@ include file="header.jsp"%>
+<%@ include file="pages/header.jsp"%>
 <div class="container my-5">
 	<table class="table">
 		<thead>
@@ -33,8 +33,8 @@
 		</tbody>
 	</table>
 	<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-		<a class="btn btn-primary btn-lg btn-lg-custom" href="insert.jsp"
-			role="button">Inserir</a>
+		<a class="btn btn-primary btn-lg btn-lg-custom"
+			href="Controller?action=insert" role="button">Inserir</a>
 	</div>
 </div>
-<%@ include file="footer.jsp"%>
+<%@ include file="pages/footer.jsp"%>
